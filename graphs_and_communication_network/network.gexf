@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-09-14">
+    <creator>NetworkX 3.5</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="Complex Systems" label="Complex Systems" />
+      <node id="Chaos Theory" label="Chaos Theory" />
+      <node id="Information" label="Information" />
+      <node id="Entropy" label="Entropy" />
+      <node id="Communication" label="Communication" />
+      <node id="Swarms" label="Swarms" />
+      <node id="Intellect" label="Intellect" />
+      <node id="Self-Organisation" label="Self-Organisation" />
+      <node id="Simple Rules" label="Simple Rules" />
+      <node id="Complex Behavior" label="Complex Behavior" />
+      <node id="Automatons" label="Automatons" />
+      <node id="Non-Linearity" label="Non-Linearity" />
+      <node id="Games" label="Games" />
+      <node id="Networks" label="Networks" />
+      <node id="Thermodynamics" label="Thermodynamics" />
+      <node id="Criticality" label="Criticality" />
+      <node id="Fractals" label="Fractals" />
+      <node id="Adaptation" label="Adaptation" />
+      <node id="Flexibility" label="Flexibility" />
+      <node id="Energy" label="Energy" />
+    </nodes>
+    <edges>
+      <edge source="Complex Systems" target="Chaos Theory" id="0" />
+      <edge source="Complex Systems" target="Self-Organisation" id="1" />
+      <edge source="Complex Systems" target="Swarms" id="2" />
+      <edge source="Complex Systems" target="Communication" id="3" />
+      <edge source="Complex Systems" target="Networks" id="4" />
+      <edge source="Complex Systems" target="Energy" id="5" />
+      <edge source="Chaos Theory" target="Non-Linearity" id="6" />
+      <edge source="Chaos Theory" target="Fractals" id="7" />
+      <edge source="Chaos Theory" target="Criticality" id="8" />
+      <edge source="Information" target="Entropy" id="9" />
+      <edge source="Information" target="Communication" id="10" />
+      <edge source="Information" target="Networks" id="11" />
+      <edge source="Information" target="Intellect" id="12" />
+      <edge source="Entropy" target="Thermodynamics" id="13" />
+      <edge source="Entropy" target="Criticality" id="14" />
+      <edge source="Communication" target="Swarms" id="15" />
+      <edge source="Swarms" target="Self-Organisation" id="16" />
+      <edge source="Swarms" target="Simple Rules" id="17" />
+      <edge source="Swarms" target="Complex Behavior" id="18" />
+      <edge source="Intellect" target="Self-Organisation" id="19" />
+      <edge source="Intellect" target="Complex Behavior" id="20" />
+      <edge source="Intellect" target="Adaptation" id="21" />
+      <edge source="Self-Organisation" target="Automatons" id="22" />
+      <edge source="Self-Organisation" target="Thermodynamics" id="23" />
+      <edge source="Self-Organisation" target="Flexibility" id="24" />
+      <edge source="Self-Organisation" target="Energy" id="25" />
+      <edge source="Simple Rules" target="Automatons" id="26" />
+      <edge source="Simple Rules" target="Games" id="27" />
+      <edge source="Complex Behavior" target="Non-Linearity" id="28" />
+      <edge source="Complex Behavior" target="Fractals" id="29" />
+      <edge source="Automatons" target="Games" id="30" />
+      <edge source="Games" target="Networks" id="31" />
+      <edge source="Networks" target="Criticality" id="32" />
+      <edge source="Thermodynamics" target="Energy" id="33" />
+      <edge source="Criticality" target="Fractals" id="34" />
+      <edge source="Adaptation" target="Flexibility" id="35" />
+    </edges>
+  </graph>
+</gexf>
